@@ -102,6 +102,7 @@ Since Leo does not support dynamic strings, the frontend "Inkognito Engine" perf
 3. **Deploy:** ```bash
 cd contract
 leo build
-leo deploy --broadcast
+leo deploy  --broadcast --save deploymentDetails
 ```
 
+---
