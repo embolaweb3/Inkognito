@@ -1,8 +1,4 @@
-This is a solid stack. Using **Next.js** with the **Aleo Provable SDK** allows you to execute ZK-proofs directly in the user's browser, meaning the plain-text diary entries never even touch a server.
 
-Here is a comprehensive `README.md` including the architectural design and the SDK integration logic.
-
----
 
 # 🖋️ Inkognito: Private-First Journaling
 
