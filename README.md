@@ -99,10 +99,8 @@ Since Leo does not support dynamic strings, the frontend "Inkognito Engine" perf
 
 1. **Clone the repo:** `git clone https://github.com/embolaweb3/Inkognito`
 2. **Install Leo:** Follow the [Aleo Docs](https://docs.leo-lang.org/getting_started/installation).
-3. **Deploy:** ```bash
-cd contract
-leo build
-leo deploy  --broadcast --save deploymentDetails
-```
+3. **Deploy:** 
+``` cd contract && leo build```
 
+``` leo deploy  --broadcast --save deploymentDetails```
 ---
