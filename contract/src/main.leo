@@ -18,6 +18,8 @@ program inkognito.aleo {
         line2: u128,
     }
 
+    @noupgrade
+    async constructor() {}
 
     // Create a private entry
     transition create_entry(
