@@ -51,3 +51,6 @@ function share_entry:
     cast r0.owner r0.id r0.category r0.timestamp r0.line1 r0.line2 r0.line3 r0.line4 into r3 as DiaryEntry.record;
     output r3 as DiaryEntry.record;
     output r2 as SharedEntry.record;
+
+constructor:
+    assert.eq edition 0u16;
